@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from PIL import Image
 
-df = pd.read_csv("image_coordinates_1.csv")
+df = pd.read_csv("image_coordinates_final.csv")
 
 image_folder = "images"
 label_folder = "labels"
