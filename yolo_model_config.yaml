@@ -1,4 +1,4 @@
-path: Dataset
+path: C:/Users/nbega/OneDrive/Documents/DrexelY3/CS435/Final Project Work/Fire-Detection-From-CCTV-Footage_UPDATED/Fire-Detection-From-CCTV-Footage/Version 2 - Final Model/Dataset
 
 train: images/train
 val: images/val

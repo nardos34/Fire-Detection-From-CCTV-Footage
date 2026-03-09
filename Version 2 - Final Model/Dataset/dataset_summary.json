@@ -1,0 +1,13 @@
+{
+  "train": {
+    "Fire": 206,
+    "Control": 109,
+    "Smoke": 206
+  },
+  "val": {
+    "Fire": 52,
+    "Control": 52,
+    "Smoke": 52
+  },
+  "random_seed": 42
+}

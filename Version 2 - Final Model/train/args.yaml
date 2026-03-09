@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: yolov8n.pt
-data: yolo_model_config.yaml
+model: C:\Users\nbega\OneDrive\Documents\DrexelY3\CS435\Final Project Work\Fire-Detection-From-CCTV-Footage_UPDATED\Fire-Detection-From-CCTV-Footage\yolov8n.pt
+data: C:\Users\nbega\OneDrive\Documents\DrexelY3\CS435\Final Project Work\Fire-Detection-From-CCTV-Footage_UPDATED\Fire-Detection-From-CCTV-Footage\yolo_model_config.yaml
 epochs: 80
 time: null
 patience: 100
@@ -12,9 +12,10 @@ save_period: -1
 cache: false
 device: cpu
 workers: 8
-project: null
+project: C:\Users\nbega\OneDrive\Documents\DrexelY3\CS435\Final Project Work\Fire-Detection-From-CCTV-Footage_UPDATED\Fire-Detection-From-CCTV-Footage\Version
+  2 - Final Model
 name: train
-exist_ok: false
+exist_ok: true
 pretrained: true
 optimizer: auto
 verbose: true
@@ -106,4 +107,5 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: C:\Users\nardo\Downloads\CS 435\Detection_Model\runs\detect\train
+save_dir: C:\Users\nbega\OneDrive\Documents\DrexelY3\CS435\Final Project Work\Fire-Detection-From-CCTV-Footage_UPDATED\Fire-Detection-From-CCTV-Footage\Version
+  2 - Final Model\train
